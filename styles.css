@@ -1,0 +1,332 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;*/
+body{
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8em;
+  /*background-color: #C3F0D9;*/
+}
+
+
+.heroimage {
+  background:
+  linear-gradient(
+    rgba(174,216,229,3),
+    rgba(77,161,169,3)
+    ),
+  url(images/hero.jpeg) center no-repeat;
+  background-blend-mode: overlay;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.page-banner {
+  background:
+  linear-gradient(
+    rgba(174,216,229,3),
+    rgba(77,161,169,3)
+    ),
+  url(images/hero.jpeg);
+  background-blend-mode: overlay;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.page-banner li{
+  padding-top: 1.3em;
+}
+
+.page-banner img{
+  padding-top: 1.3em;
+}
+
+
+
+
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 5em;
+  color: white;
+  /*color: #2F6690;*/
+  text-align: center;
+  padding-top: 45px;
+}
+
+
+
+
+
+.nav {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  justify-content: center;
+}
+
+.nav-item {
+  background: none;
+  padding: 0px;
+  width: 90px;
+  height: 40px;
+  margin-top: 0px;
+
+
+
+  line-height: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #2F6690;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
+.nav a {
+  text-decoration-line: none;
+}
+
+#logo {
+  flex-grow: .2;
+}
+
+
+.tab-box {
+  display: flex;
+  padding: 0px;
+  margin: auto;
+  justify-content: center;
+  width: 68%;
+}
+
+.tab-box, aside, article {
+  padding: 10px 10px 10px 10px;
+}
+
+#tab-aside {
+  width: 20%;
+}
+
+
+.read-more {
+  display: flex;
+  padding: 0px;
+  margin: auto;
+  justify-content: center;
+  /*align-items: center;*/
+  width: 68%;
+}
+
+
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2em;
+}
+
+.why-us {
+  display: flex;
+  padding: 0px;
+  margin: auto;
+  margin-bottom: 2px;
+  padding-left: 17em;
+  width: 85%;
+
+}
+
+.col-1 {
+  width: 30%;
+  padding: 10px 10px 10px 10px;
+
+
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+li.one::before{
+  background-image: url(images/icon_paint.png) no-repeat;
+}
+li{
+    position: relative;
+}
+.icons{
+  position:absolute;
+  left: -40px;
+  top:1.2em;
+  width: 15px;
+}
+
+
+
+
+.col-2 {
+  background: url(images/laptop.jpeg);
+  background-size: cover;
+  width: 55%;
+
+
+}
+
+
+.our-team-image {
+  background:
+  linear-gradient(
+    rgba(38,176, 176,3),
+    rgba(21,49,77,3)
+    ),
+  url(images/ourteam.jpg);
+  background-blend-mode: overlay;
+  background-size: cover;
+  height: 600px;
+
+}
+
+/* I'm not able to identify both p and h2 in the same css rule and I had to do them separtely. Otherwise, it turned all p or all h2's white.*/
+.our-team-image h2 {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  margin-bottom: 0px;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  color: white;
+  /*color: #2F6690;*/
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+
+
+.team-row-1 {
+  display: flex;
+  padding: 0px;
+  margin: auto;
+  justify-content: center;
+  width: 60%;
+  flex-direction: row;
+}
+
+.team-row-2 {
+  display: flex;
+  padding: 0px;
+  margin: auto;
+  justify-content: center;
+  width: 60%;
+  flex-direction: row;
+  margin-bottom: 120px;
+}
+/*.team-items:nth-child(5n-1) {
+  flex-wrap: wrap;
+}*/
+
+
+.team-items {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.team-items h3 {
+  color: white;
+  text-align: left;
+  margin-bottom: 0px;
+
+}
+
+.team-items p {
+  color: white;
+  text-align: left;
+
+}
+
+.lines {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.icon-boxes {
+  display: flex;
+  width: 68%;
+  height: 60px;
+  margin: auto;
+  margin-bottom: 75px;
+}
+
+
+.icon-box {
+  width: 17%;
+  text-align: center;
+  height: 120px;
+}
+
+/* icon-box-reverse is the css it would use when rollover happens */
+.icon-box-reverse {
+  width: 17%;
+  text-align: center;
+  height: 120px;
+  background-color: #2f6690;
+  color: white;
+}
+
+.icon-box-reverse p{
+  margin-top: 0px;
+  font-size: .6em;
+}
+
+.icon-box-reverse img{
+  width: 55px;
+  text-align: center;
+  padding-top: 1.9rem;
+}
+
+
+.icon-box img{
+  width: 25px;
+  text-align: center;
+  padding-top: 2.6rem;
+}
+
+.icon-counters {
+  display: flex;
+  padding: 0px;
+  margin: auto;
+  justify-content: center;
+  /*align-items: center;*/
+  width: 68%;
+}
+
+.icon-counters, article, img{
+/*text-align: center;*/
+padding-top: 2.6em;
+
+}
+
+.icon-counters, article {
+  /*width: 17%;*/
+}
+
+
+.project-title h2{
+  text-align: center;
+  padding-top: 0px;
+  margin: 0
+}
+
+.project-title p{
+  text-align: center;
+}
